@@ -20,7 +20,7 @@ var fibtests = []struct {
 func TestFib(t *testing.T) {
     for _, tt := range(fibtests) {
         t.Run(fmt.Sprintf("%d", tt.in), func(t *testing.T) {
-            got := fib(tt.in)
+            got := Fib(tt.in)
             if got != tt.out {
                 t.Error("failed")
             }

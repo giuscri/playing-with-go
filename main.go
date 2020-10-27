@@ -7,7 +7,7 @@ func main() {
     fmt.Println(fib(100))
 }
 
-func fib(n int) uint64 {
+func Fib(n int) uint64 {
     if n == 0 {
         return 0
     }
