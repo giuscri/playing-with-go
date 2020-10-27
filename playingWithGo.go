@@ -1,11 +1,4 @@
-package main
-
-import "fmt"
-
-func main() {
-    fmt.Println("Hello world!")
-    fmt.Println(Fib(100))
-}
+package playingWithGo
 
 func Fib(n int) uint64 {
     if n == 0 {

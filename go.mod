@@ -1,3 +1,3 @@
-module github.com/giuscri/playing-with-go
+module github.com/giuscri/playingWithGo
 
 go 1.14
